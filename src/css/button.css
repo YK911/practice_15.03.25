@@ -1,0 +1,21 @@
+.btn {
+  padding: 18px 35px;
+
+  font-size: 12px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  color: rgb(var(--light-cl));
+
+  border: 1px solid transparent;
+  background: rgb(var(--primary-cl));
+  border-radius: 8px;
+
+  &:hover,
+  &:focus {
+    border-color: rgb(var(--light-cl));
+  }
+
+  &.wide {
+    width: 100%;
+  }
+}
